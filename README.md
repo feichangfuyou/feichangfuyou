@@ -1,9 +1,4 @@
 <p align="center">
-  - 👋 Hi, I’m @feichangfuyou
-- 👀 I’m interested in coding in all aspects and love the blockchain technology.
-- 🌱 I’m currently learning a little bit of everything to keep my mind invoating and helping the future
-- 💞️ I’m looking to collaborate on majority of my work or if you'd like to collab as well .
-- 📫 How to reach me through email is at this address feichangfuyou@gmail.com.
   <img src="./system.svg" />
 </p>
 <!---
