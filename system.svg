@@ -1,0 +1,20 @@
+<svg width="800" height="220" viewBox="0 0 800 220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0a0a0a; }
+    .text { fill: #00ff9c; font-family: monospace; font-size: 18px; }
+    .cursor { animation: blink 1.1s steps(2, start) infinite; }
+    @keyframes blink { to { visibility: hidden; } }
+    .scan { animation: scan 6s linear infinite; opacity: 0.05; }
+    @keyframes scan { from { transform: translateY(-220px); } to { transform: translateY(220px); } }
+  </style>
+
+  <rect class="bg" width="800" height="220"/>
+  <rect class="scan" width="800" height="40" fill="#00ff9c"/>
+
+  <text x="30" y="60" class="text">SYSTEM ONLINE</text>
+  <text x="30" y="95" class="text">user: feichang fuyou</text>
+  <text x="30" y="130" class="text">mode: execution</text>
+  <text x="30" y="165" class="text">status: live</text>
+
+  <text x="30" y="195" class="text cursor">▮</text>
+</svg>
